@@ -1,0 +1,58 @@
+body{
+    font-family: 'open sans', sans-serif;/*choisis open sans comme police et si il ne trouve pas utilise sans-serif*/
+    background-image: url(../img/bkg.jpg);/*attention "../",revoir les chemins*/
+    background-repeat: repeat;
+    
+}
+
+section{
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    background: black;
+    color: cornsilk;
+    padding: 1vw ;
+}
+
+nav{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+nav a{
+    font-size: 1.3em;
+    font-weight: 700;
+    padding: 1em 2em;
+    color: rgb(73, 88, 49);
+}
+
+h2{
+    font-size: 1.5em;
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 1vw;
+}
+
+code{
+    font-size: 1.5vw;
+    font-style: italic;
+    background-color: lightgrey;
+}
+
+div{
+    text-align: center;
+    background: rgb(237,209,171);
+    background: radial-gradient(circle, rgba(237,209,171,1) 2%, rgba(174,236,227,1) 11%, rgba(231,175,150,1) 22%, rgba(174,233,228,1) 35%, rgba(223,202,187,1) 45%, rgba(170,245,215,1) 59%, rgba(237,211,198,1) 74%, rgba(153,231,218,1) 89%, rgba(238,215,199,1) 100%);
+    color: black;
+    padding: 1vw;
+}
+
+img{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
